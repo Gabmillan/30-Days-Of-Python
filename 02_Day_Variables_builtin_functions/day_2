@@ -1,1 +1,61 @@
+#day 2: 30 Days of python programming'
 
+firstName='Gabriela'
+lastName='Millan'
+fullName='Gabriela Millan'
+country='United States'
+city='Phoenix'
+age='34'
+year='2025'
+is_married='yes'
+is_true='yes'
+is_light_on='no'
+multiple_variable['firstName', 'lastName','fullName', 'country', 'city', 'age', 'year', 'is_married']
+
+print (type('Gabriela'))
+print(type('Millan'))
+print(type('Gabriela Millan'))
+print(type('United States'))
+print(type('Phoenix'))
+print(type('34'))
+print(type('2025'))
+print(type('yes'))
+print(type('no'))
+print(type(['firstName', 'lastName','fullName', 'country', 'city', 'age', 'year', 'is_married']))
+print (len(fistName))
+print (len(lastName))
+
+num_one='5'
+num_two='4'
+variable_total='9'
+variable_diff= '1'
+variable_product='20'
+variable_division="1.25"
+remainder="1"
+exp="625"
+floor_division="1"
+
+#math
+
+import math
+
+radius=float(input("enter the radius of the circle:"))
+
+area= math.pi * radius**2
+
+circum=2 * math.pi * radius
+
+print(f'Area of the circle:{area}')
+print(f'Circumfrence of the circle:{circum}')
+
+#input
+
+firstName=input('Whats your name?')
+lastName=input('Whats your last name?')
+country=input('What country are you from?')
+age=input('Whats your age?')
+
+print(firstName)
+print(lastName)
+print(country)
+print(age)
